@@ -11,6 +11,14 @@
 |
 */
 
+/*----default router, unuserful--------
 Route::get('/', function () {
     return view('welcome');
 });
+*/
+
+
+/***** Add new router ********/
+Route::get('/', 'StaticPagesController@home');
+Route::get('/help','StaticPagesController@help');
+Route::get('/about','StaticPagesController@about');
