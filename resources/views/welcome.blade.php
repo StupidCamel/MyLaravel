@@ -39,6 +39,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">Hello Laravel! - by SC</div>
+                <div>My first Laravel project.</div>
             </div>
         </div>
     </body>
